@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e5e5;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+#logo{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.menu-toggle {
+    display: none;
+}
+.hamburger {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+}
+.hamburger.active div:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active div:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+#sidebar {
+    width: 230px;
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-200px);
+}
+#sidebar.active {
+    transform: translateX(0);
+}
+#sidebar h2 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-left: 2em;;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#sidebar ul li {
+    margin: 10px 0;
+}
+#sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+#sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding-left: 7em;
+    padding-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 6em;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 3.5em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2em;
+}
+.content.active {
+    margin-left: 15em;
+}
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .hamburger {
+        display: block;
+    }
+    #sidebar {
+        width: 80%;
+        transform: translateX(-100%);
+    }
+    #sidebar.active {
+        transform: translateX(0);
+    }
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .content.active {
+        margin-left: 80%;
+    }
+}
