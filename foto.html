@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1 ><a id="logo" href="http://127.0.0.1:5500/index.html">WikIA</a></h1>
+        <a href="https://gonzasan.github.io/index.html"><img id="logoimg" src="wikia-high-resolution-logo-white-transparent.png" alt=""></a>
+
         <button class="hamburger" onclick="toggleMenu()">
             <div></div>
             <div></div>
@@ -27,73 +28,127 @@
     <div class="content">
         <section id="imagenes">
             <h2>Creación de Imágenes</h2>
+            
             <p>La inteligencia artificial ha revolucionado la creación de imágenes, permitiendo generar obras de arte originales y realistas a partir de simples descripciones textuales. Herramientas como DALL-E de OpenAI pueden transformar palabras en imágenes sorprendentes.</p>
             <p>
                 La generación de imágenes con inteligencia artificial (IA) es una tecnología que permite crear imágenes nuevas y originales a partir de algoritmos y modelos de aprendizaje automático. Estos modelos pueden generar imágenes realistas de objetos, personas, paisajes y más, a partir de descripciones de texto o imágenes de referencia.
             </p>
-            <h2>¿Cómo Funciona?</h2>
+            <h3>¿Cómo Funciona?</h3>
+            <p>Existen dos modelos principales, las redes generativas adversarias (GAN) y las redes transformer</p>
             <p>
                 Los modelos de IA para la generación de imágenes, como las redes generativas adversarias (GANs), funcionan mediante dos componentes principales:
             </p>
             <ul>
                 <li><strong>Generador:</strong> Crea imágenes nuevas a partir de datos aleatorios o descripciones de texto.</li>
+                <br>
                 <li><strong>Discriminador:</strong> Evalúa las imágenes generadas y determina si son realistas o no, ayudando al generador a mejorar con el tiempo.</li>
             </ul>
-            <p>
-                A través de este proceso, la IA puede aprender a generar imágenes cada vez más detalladas y realistas.
-            </p>
-            <h2>Sitios Web para Crear Imágenes con IA</h2>
+            <p>Funcionamiento de las redes transformer aplicado a la generación de imagenes</p>
+            <ol>
+                <li><strong>Procesamiento del Texto:</strong> La descripción textual es convertida en un formato que el modelo pueda entender, usualmente a través de la tokenización, donde el texto se descompone en palabras o fragmentos de palabras.</li>
+                <br>
+                <li><strong>Codificación del Texto:</strong> El texto tokenizado se pasa a través de una red neuronal que lo convierte en una representación numérica (vector).</li>
+                <br>
+                <li><strong>Generación de la Imagen:</strong> La representación numérica del texto se utiliza como entrada para una red generativa, que crea la imagen correspondiente.</li>
+                <br>
+                <li><strong>Refinamiento:</strong> La imagen generada se puede refinar mediante técnicas adicionales para mejorar la calidad y la coherencia.</li>
+            </ol>
+            <h3>¿Para qué utilizarla?</h3>
+            <p>Casos de uso normales ya sea en entornos profesionales o de divertimento:</p>
+            <ul>
+                <li>
+                    <strong>Diseño Gráfico y Publicidad:</strong> Los diseñadores pueden utilizarla para generar imágenes únicas y creativas basadas en descripciones específicas, ayudando a crear contenido publicitario atractivo y original.
+                </li>
+                <br>
+                <li>
+                    <strong>Prototipos y Conceptos:</strong> Los desarrolladores de productos y diseñadores pueden crear prototipos visuales y conceptos de productos rápidamente a partir de descripciones textuales, facilitando el proceso de ideación.
+                </li>
+                <br>
+                <li>
+                    <strong>Arte Digital:</strong> Los artistas pueden utilizarla para explorar nuevas ideas y estilos artísticos, generando imágenes basadas en descripciones y experimentando con diferentes conceptos visuales.
+                </li>
+                <br>
+                <li>
+                    <strong>Educación y Aprendizaje:</strong> Los educadores pueden usarla para crear recursos visuales personalizados que complementen las lecciones y materiales educativos, haciendo que el aprendizaje sea más atractivo y accesible.
+                </li>
+                <br>
+                <li>
+                    <strong>Entretenimiento y Medios:</strong> Los escritores y creadores de contenido pueden generar imágenes para ilustrar historias, artículos y guiones, mejorando la experiencia narrativa con visuales específicos.
+                </li>
+                <br>
+                <li>
+                    <strong>Investigación y Desarrollo:</strong> Los investigadores pueden emplearla para explorar la generación de imágenes en distintos campos, desde la biología y la medicina hasta la arquitectura y la ingeniería.
+                </li>
+                <br>
+                <li>
+                    <strong>Marketing en Redes Sociales:</strong> Los especialistas en marketing pueden crear contenido visual único y atractivo para campañas en redes sociales, mejorando el alcance y la interacción con la audiencia.
+                </li>
+                <br>
+                <li>
+                    <strong>Personalización de Productos:</strong> Las empresas pueden ofrecer a los clientes la posibilidad de personalizar productos a través de descripciones textuales, generando imágenes únicas de los productos personalizados.
+                </li>
+                <br>
+                <li>
+                    <strong>Creación de Perfiles Ficticios:</strong> Las imágenes pueden ser usadas para crear perfiles ficticios en plataformas de prueba o demostraciones, evitando el uso de fotos de personas reales.
+                </li>
+                <br>
+                <li>
+                    <strong>Pruebas de Software:</strong> Las imágenes pueden ser usadas en pruebas de software para asegurar que las funcionalidades relacionadas con la gestión de fotos se comporten correctamente.
+                </li>
+            </ul>
+
+            <br><hr><br>
+
+            <h3>Sitios Web para Crear Imágenes con IA</h3>
             <p>
                 Existen varios sitios web que permiten a los usuarios crear imágenes con IA. Aquí hay algunos ejemplos populares:
             </p>
-            <h3>Dall-e</h3>
-            <p>
-            <strong>Descripción:</strong> DALL-E 2 es una herramienta de OpenAI que genera imágenes a partir de descripciones textuales detalladas.
-            <br>
+            <h2><a href="https://openai.com/index/dall-e-2/">DALL-E</a></h2>
+            
             <strong>Precio:</strong> La plataforma ofrece créditos gratuitos mensuales y luego cobra $15 por cada 115 créditos adicionales.
+            <p>DALL-E, de OpenAI, se destaca por su capacidad de generar imágenes originales y coherentes a partir de descripciones textuales, algo que pocas IA pueden hacer. Combina la comprensión del lenguaje con la generación de arte visual, permitiendo crear imágenes a partir de cualquier descripción que se le proporcione.</p>
             <br>
-            <img src="https://www.casosexitosos.com/wp-content/themes/yootheme/cache/a8/logo_DALL-E-a88da5fe.png" alt="Dall-e logo" width="500px">
+            <a href="https://openai.com/index/dall-e-2/" target="_blank"><img src="https://www.casosexitosos.com/wp-content/themes/yootheme/cache/a8/logo_DALL-E-a88da5fe.png" alt="Dall-e logo" width="500px"></a>
             <br><br>
             <br>
-            <h3>This person does not exist</h3>
-            <p>Crea rostro de personas que no existen</p>
+            <h3><a href="https://www.thispersondoesnotexist.com" target="_blank">This Person Does Not Exist</a></h3>
+            <strong>Precio:</strong> Gratuita
+            <p>This Person Does Not Exist es una herramienta de inteligencia artificial que genera imágenes de rostros humanos completamente ficticios. A diferencia de otras IA, utiliza redes generativas adversariales (GANs) para crear retratos hiperrealistas de personas que no existen en la realidad, demostrando la capacidad de la IA para producir imágenes altamente detalladas y realistas sin basarse en individuos reales.</p>
             <br>
             <img src="https://i.gzn.jp/img/2019/02/17/this-person-does-not-exist/00.jpg" alt="This person does not exist logo" width="500px">
             <br><br><br>
-        </section>
-            <h2>Sitios Web para Crear Imágenes con IA</h2>
-            <p>
-                Existen varios sitios web que permiten a los usuarios crear imágenes con IA. Aquí hay algunos ejemplos populares:
-            </p>
-            <ul>
-                <li>
-                    <a href="https://www.artbreeder.com" target="_blank">Artbreeder</a>: Permite a los usuarios crear y mezclar imágenes utilizando modelos de IA. Es ideal para la creación de retratos, paisajes y personajes.
-                </li>
-                <li>
-                    <a href="https://www.deepdreamgenerator.com" target="_blank">Deep Dream Generator</a>: Utiliza redes neuronales para transformar imágenes existentes en obras de arte únicas y psicodélicas.
-                </li>
-                <li>
-                    <a href="https://www.thispersondoesnotexist.com" target="_blank">This Person Does Not Exist</a>: Genera rostros humanos realistas que no pertenecen a personas reales, utilizando una red GAN entrenada en un conjunto de datos masivo de fotos de personas.
-                </li>
-                <li>
-
-                </li>
-            </ul>
-            <h2>Aplicaciones y Usos</h2>
-            <p>
-                La generación de imágenes con IA tiene numerosas aplicaciones, incluyendo:
-            </p>
-            <ul>
-                <li>Creación de arte y diseño gráfico</li>
-                <li>Generación de personajes y escenarios para videojuegos y películas</li>
-                <li>Prototipos y maquetas en diseño industrial</li>
-                <li>Investigación en campos como la medicina y la biología</li>
-            </ul>
-            <p>
-                En resumen, la generación de imágenes con IA es una tecnología emocionante que abre nuevas posibilidades en creatividad y diseño. Los sitios web mencionados son excelentes puntos de partida para explorar lo que se puede lograr con esta tecnología.
-            </p>
-        </section>
+            <h2><a href="https://www.artbreeder.com" target="_blank">Artbreeder</a></h2>
+            <strong>Precio:</strong> Algunos créditos gratuitos y packs mensuales desde $9
+            <p>Artbreeder es una plataforma de inteligencia artificial que permite a los usuarios crear y modificar imágenes mediante la combinación y ajuste de distintas características visuales. A diferencia de otras IA, Artbreeder se enfoca en la colaboración y la creatividad colectiva, permitiendo a los usuarios mezclar imágenes y ajustar parámetros para generar nuevos y únicos resultados visuales.</p>
+            <img src="https://cdn.knoji.com/images/logo/artbreeder.jpg" alt="">
+            <br>
+            <h2><a href="https://www.deepdreamgenerator.com" target="_blank">Deep Dream Generator</a></h2>
+            <strong>Precio:</strong> Gratis con pases mensuales desde $9 o de un único uso desde $79
+            <p>Deep Dream Generator es una herramienta de inteligencia artificial que transforma imágenes al aplicar efectos visuales surrealistas y psicodélicos. A diferencia de otras IA, se destaca por utilizar redes neuronales para realzar patrones y detalles, creando imágenes con un estilo onírico y abstracto a partir de fotos existentes.</p>
+            <img src="https://asset.brandfetch.io/id4qaMelTN/id44seinT2.jpeg" alt="" width="200px" height="300px">
+            <br>
+            </section>
     </div>
+    <footer class="footer">
+        <div class="column">
+            <h3>WikI.A</h3>
+        </div>
+        <div class="column">
+            <h3>Gonzalo Sanchez</h3>
+            <ul>
+                <li>898.168</li>
+                <li>UBA FCE</li>
+
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Gestión de la inteligencia artificial</h3>
+            <ul>
+                <li>Profesor: Diego Parrás</li>
+                <li>2024</li>
+            </ul>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

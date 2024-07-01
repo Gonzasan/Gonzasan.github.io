@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1 ><a id="logo" href="http://127.0.0.1:5500/index.html">WikI.A</a></h1>
+        <a href="https://gonzasan.github.io/index.html"><img id="logoimg" src="wikia-high-resolution-logo-white-transparent.png" alt=""></a>
+
         <button class="hamburger" onclick="toggleMenu()">
             <div></div>
             <div></div>
@@ -16,15 +17,22 @@
         </button>
     </header>
     <div id="sidebar">
-        <h2>Contenidos</h2>
-        <ul>
-            <li><a href="https://gonzasan.github.io/index.html">Home</a></li>
-            <li><a href="https://gonzasan.github.io/foto.html">Creación de Imágenes</a></li>
-            <li><a href="#https://gonzasan.github.io/video.html">Generación de Videos</a></li>
-            <li><a href="https://gonzasan.github.io/musica.html">Composición de Música</a></li>
-        </ul>
+        <div>
+            <h2>Contenidos</h2>
+            <ul>
+                <li><a href="https://gonzasan.github.io/index.html">Home</a></li>
+                <li><a href="https://gonzasan.github.io/foto.html">Creación de Imágenes</a></li>
+                <li><a href="https://gonzasan.github.io/video.html">Generación de Videos</a></li>
+                <li><a href="https://gonzasan.github.io/musica.html">Composición de Música</a></li>
+            </ul>
+        </div>
+        <div id="enfoque">
+            <ul >
+                <li><a href="https://gonzasan.github.io/enfoque.html">Enfoque</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="content">
+    <div class="content" id="indmain">
         <section id="que">
             <h2>¿Qué es la inteligencia artificial?</h2>
             <p>
@@ -48,6 +56,8 @@
             </p>
             <img src="https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-2048x1366.jpg" alt="" width="500px">
         </section>
+        <br><br><br>
+        <hr>
         <section id="como">
             <h2>¿Cómo Funcionan las Redes Neuronales?</h2>
             <p>
@@ -74,8 +84,30 @@
             <p>
                 Durante el entrenamiento, la red compara sus resultados con los resultados esperados y ajusta sus pesos para minimizar los errores. Esto se hace repetidamente hasta que la red pueda producir resultados precisos.
             </p>
+            <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Schaubilder/ESP-artificial-neural-network.png" alt="">
         </section>
+        <br>
     </div>
+    <footer class="footer">
+        <div class="column">
+            <h3>WikI.A</h3>
+        </div>
+        <div class="column">
+            <h3>Gonzalo Sanchez</h3>
+            <ul>
+                <li>898.168</li>
+                <li>UBA FCE</li>
+
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Gestión de la inteligencia artificial</h3>
+            <ul>
+                <li>Profesor: Diego Parrás</li>
+                <li>2024</li>
+            </ul>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
