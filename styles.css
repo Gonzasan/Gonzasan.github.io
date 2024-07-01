@@ -123,6 +123,11 @@ img{
 h1{
     font-size: 2em;
 }
+#imgfooter{
+    width: 3em;
+    padding: 0;
+    margin: 0;
+}
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
